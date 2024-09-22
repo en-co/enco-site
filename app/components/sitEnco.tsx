@@ -50,7 +50,7 @@ export default function Component() {
                 We organize workshops, hackathons, and collaborative projects to foster innovation and learning.
               </p>
               <p className="text-lg">
-                Join us in our mission to push the boundaries of what's possible with technology!
+                Join us in our mission to push the boundaries of what&apos;s possible with technology!
               </p>
             </div>
             <div className="w-1/2">
