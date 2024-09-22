@@ -4,11 +4,11 @@ import { ocrAFont } from '../font';
 
 export default function Component() {
   return (
-    <div className={`min-h-screen bg-[#282828] text-white ${ocrAFont.className}`}>
+    <div className={`min-h-screen bg-[#282828] top-6 text-white ${ocrAFont.className}`}>
       {/* Navbar */}
       <nav className="bg-[#282828] p-4">
-        <div className="container mx-auto flex justify-between items-center">
-          <h1 className="text-3xl font-bold text-[#ffc100]">Enco</h1>
+        <div className="container mx-auto flex justify-between items-center top-8">
+          <h1 className="text-4xl font-bold text-[#ffc100]">Enco</h1>
           <ul className="flex space-x-4">
             <li><a href="#about" className="hover:text-[#ffc100]">About</a></li>
             <li><a href="#projects" className="hover:text-[#ffc100]">Projects</a></li>
@@ -72,7 +72,7 @@ export default function Component() {
             {["Jaggu"].map((project) => (
               <div key={project} className="bg-[#282828] p-6 rounded-lg">
                 <h3 className="text-xl font-bold mb-4">{project}</h3>
-                <p className="mb-4">Jaggu is an intelligent, AI-powered campus assistant designed to streamline the day-to-day college experience for students. Built with advanced natural language processing (NLP), Jaggu offers seamless interaction, providing instant answers to student queries, personalized reminders, and guidance on campus navigation. Whether it's managing class schedules, accessing academic resources, or staying updated on campus events, Jaggu integrates effortlessly with existing systems to deliver a user-friendly experience.</p>
+                <p className="mb-4">Jaggu is an intelligent, AI-powered campus assistant designed to streamline the day-to-day college experience for students. Built with advanced natural language processing (NLP), Jaggu offers seamless interaction, providing instant answers to student queries, personalized reminders, and guidance on campus navigation. Whether it&apos;s managing class schedules, accessing academic resources, or staying updated on campus events, Jaggu integrates effortlessly with existing systems to deliver a user-friendly experience.</p>
                 <a href="#" className="text-[#ffc100] hover:underline">Learn More</a>
               </div>
             ))}
