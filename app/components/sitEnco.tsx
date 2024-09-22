@@ -23,7 +23,7 @@ export default function Component() {
         <div className="container mx-auto flex items-center justify-between">
           <div className="w-1/2">
             <h1 className="text-5xl font-bold mb-4">Welcome to Enco</h1>
-            <p className="text-xl mb-8">Innovate, Create, Collaborate</p>
+            <p className="text-xl mb-8">Community, Code, Community</p>
             <button className="bg-[#ffc100] text-[#282828] px-6 py-3 rounded-full font-bold hover:bg-opacity-80 transition duration-300">
               Join Us
             </button>
@@ -46,11 +46,10 @@ export default function Component() {
           <div className="flex items-center">
             <div className="w-1/2 pr-8">
               <p className="text-lg mb-4">
-                Enco is a community of passionate individuals dedicated to exploring and advancing technology. 
-                We organize workshops, hackathons, and collaborative projects to foster innovation and learning.
+              Enco is a club with a broad vision and control over the details. Our philosophy emphasizes both ambitious goals and individual attention to you and your work. We believe that flawless work lacks character, and every imperfection left by a contributor is a reflection of their dreams and aspirations.
               </p>
               <p className="text-lg">
-                Join us in our mission to push the boundaries of what&apos;s possible with technology!
+                Join us in our mission to shift thee &quot;tech&quot;tonic plates!
               </p>
             </div>
             <div className="w-1/2">
@@ -70,10 +69,10 @@ export default function Component() {
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-center">Our Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[1, 2, 3].map((project) => (
+            {["Jaggu"].map((project) => (
               <div key={project} className="bg-[#282828] p-6 rounded-lg">
-                <h3 className="text-xl font-bold mb-4">Project {project}</h3>
-                <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h3 className="text-xl font-bold mb-4">{project}</h3>
+                <p className="mb-4">Jaggu is an intelligent, AI-powered campus assistant designed to streamline the day-to-day college experience for students. Built with advanced natural language processing (NLP), Jaggu offers seamless interaction, providing instant answers to student queries, personalized reminders, and guidance on campus navigation. Whether it's managing class schedules, accessing academic resources, or staying updated on campus events, Jaggu integrates effortlessly with existing systems to deliver a user-friendly experience.</p>
                 <a href="#" className="text-[#ffc100] hover:underline">Learn More</a>
               </div>
             ))}
@@ -86,11 +85,11 @@ export default function Component() {
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-center">Upcoming Events</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[1, 2, 3].map((event) => (
+            {["Hacktoberfest 2024"].map((event) => (
               <div key={event} className="bg-[#1e1e1e] p-6 rounded-lg">
-                <h3 className="text-xl font-bold mb-4">Event {event}</h3>
-                <p className="mb-4">Date: June {event + 14}, 2023</p>
-                <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3 className="text-xl font-bold mb-4">{event}</h3>
+                <p className="mb-4">Date: October 6, 2024</p>
+                <p className="mb-4">Stay tuned for updates...</p>
                 <button className="bg-[#ffc100] text-[#282828] px-4 py-2 rounded font-bold hover:bg-opacity-80 transition duration-300">
                   Register
                 </button>
@@ -105,7 +104,7 @@ export default function Component() {
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-center">Latest Blog Posts</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[1, 2, 3].map((post) => (
+            {[1].map((post) => (
               <div key={post} className="bg-[#282828] p-6 rounded-lg">
                 <h3 className="text-xl font-bold mb-4">Blog Post {post}</h3>
                 <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
